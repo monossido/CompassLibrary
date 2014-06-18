@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">CompassLibrary</string>
+    <!-- status (used via string based resource loading) -->
+    <string name="status_new_release" tools:ignore="UnusedResources">New release available.\nClick to install.</string>
+    <string name="status_new_nightly" tools:ignore="UnusedResources">New nightly build available.\nClick to install.</string>
+    <string name="status_new_rc" tools:ignore="UnusedResources">New release candidate available.\nClick to install.</string>
+    <string name="status_geocaching_change" tools:ignore="UnusedResources">Recent changes on geocaching.com broke c:geo.\nWe are working on it, check again soon.</string>
+    <string name="status_geocaching_livemap" tools:ignore="UnusedResources">Recent changes on geocaching.com broke the live map feature.\nWe are working on it, check again soon.</string>
+    <string name="status_geocaching_maintenance" tools:ignore="UnusedResources">geocaching.com is under maintenance.\nYou might run into various issues.</string>
+    <string name="status_closeout_warning" tools:ignore="UnusedResources">You appear to be using a version of Android older than 2.1. Future releases of c:geo might no longer be available for your device.</string>
+
+    <!-- cache sizes -->
+    <string name="cache_size_micro">Micro</string>
+    <string name="cache_size_small">Small</string>
+    <string name="cache_size_regular">Regular</string>
+    <string name="cache_size_large">Large</string>
+    <string name="cache_size_other">Other</string>
+    <string name="cache_size_virtual">Virtual</string>
+    <string name="cache_size_notchosen">Not chosen</string>
+    <string name="cache_size_unknown">Unknown</string>
+    <string name="cache_size_nano">Nano</string>
+    <string name="cache_size_very_large">Very large</string>
+    <string name="err_parse_lat">c:geo can\'t parse latitude.</string>
+    <string name="err_parse_lon">c:geo can\'t parse longitude.</string>
+    <string name="loc_last">Last known</string>
+    <string name="loc_net">Network</string>
+    <string name="loc_gps">GPS</string>
+    <string name="wp_final">Final Location</string>
+    <string name="wp_stage">Stage of a Multicache</string>
+    <string name="wp_puzzle">Question to Answer</string>
+    <string name="wp_pkg">Parking Area</string>
+    <string name="wp_trailhead">Trailhead</string>
+    <string name="wp_waypoint">Reference Point</string>
+    <string name="wp_original">Original Coordinates</string>
+    <string name="navigation">Bussola</string>
+    <string name="loc_sat">Sat</string>
+    <string name="loc_trying">Localizzazione in corso</string>
+
+</resources>
