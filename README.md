@@ -16,3 +16,7 @@ If you want to use CompassActivity with ActionBarSherlock or something like that
 ### Thanks
 
 Thank you to the c:geo team.
+
+### License
+
+Apache 2 see LICENSE
