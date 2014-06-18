@@ -7,7 +7,7 @@ An Android library containing a "Compass Activity" taken from [c:geo](https://gi
 
 After you imported the library, you can start the compass Activity like that:
 ```
-CompassActivity.startActivity(this, new Geopoint(currentPoint.getLocation()), null, currentPoint.getName());
+CompassActivity.startActivity(this, new Geopoint(currentPoint.getLocation()), currentPoint.getName());
 
 ```
 

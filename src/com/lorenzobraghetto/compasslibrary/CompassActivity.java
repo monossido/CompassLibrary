@@ -1,9 +1,5 @@
 package com.lorenzobraghetto.compasslibrary;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-
 import rx.Subscription;
 import android.app.Activity;
 import android.content.Context;
@@ -29,7 +25,6 @@ public class CompassActivity extends Activity {
 
 	private static final String EXTRAS_COORDS = "coords";
 	private static final String EXTRAS_CACHE_INFO = "cacheinfo";
-	private static final List<IWaypoint> coordinates = new ArrayList<IWaypoint>();
 	public static final int UPDATE_GEODIR = 1 << 3;
 
 	/**
@@ -42,7 +37,6 @@ public class CompassActivity extends Activity {
 	private String info = null;
 
 	private Resources res;
-	private boolean toasted = false;
 	private Subscription geoDirHandlerSubSCription;
 
 	@Override
@@ -184,17 +178,8 @@ public class CompassActivity extends Activity {
 		}
 	}
 
-	public static void startActivity(final Context context, final Geopoint coords, final Collection<IWaypoint> coordinatesWithType,
+	public static void startActivity(final Context context, final Geopoint coords,
 			final String info) {
-		coordinates.clear();
-		if (coordinatesWithType != null) {
-			for (IWaypoint coordinate : coordinatesWithType) {
-				if (coordinate != null) {
-					coordinates.add(coordinate);
-				}
-			}
-		}
-
 		final Intent navigateIntent = new Intent(context, CompassActivity.class);
 		navigateIntent.putExtra(EXTRAS_COORDS, coords);
 		navigateIntent.putExtra(EXTRAS_CACHE_INFO, info);
