@@ -13,6 +13,8 @@ CompassActivity.startActivity(this, new Geopoint(currentPoint.getLocation()), cu
 
 If you want to use CompassActivity with ActionBarSherlock or something like that you can copy CompassActivity on your project and extend the right class.
 
+![Compass Screenshot](https://raw.github.com/monossido/CompassLibrary/master/screen.png)
+
 ### Thanks
 
 Thank you to the c:geo team.
